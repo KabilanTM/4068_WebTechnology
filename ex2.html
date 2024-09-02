@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Types of CSS</title>
+
+    <style>
+        body {
+            background-color: white; 
+            font-family: Arial;
+            font-style: italic;
+            font-size: 19px;
+            font-weight: bold;
+            text-align: center;
+            color: white;
+        }
+
+        h1 {
+            color: red;
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            border: 3px solid black;
+            padding: 20px;
+            background-color:  turquoise; 
+        }
+        
+    </style>
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Demonstration of All Types of CSS</h1>
+
+    <div class="container">
+      
+        <p style="color: white; font-weight: bold; font-style: italic; font-size: 18px; text-align: center; ">This is an example of inline CSS.</p>
+
+        <p >This paragraph is styled using internal CSS.</p>
+
+        <p class="external-css">This paragraph is styled using external CSS.</p>
+    </div>
+</body>
+</html>
